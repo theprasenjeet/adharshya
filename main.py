@@ -9,6 +9,10 @@ import time
 
 fourCC = cv2.VideoWriter_fourcc(*'XVID')
 
+
+st.write(cv2.CAP_ANY)
+
+
 # this is used to capture video in OpenCV
 
 # fourCC is a 4-byte video code, used to specify the video code
