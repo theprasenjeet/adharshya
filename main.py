@@ -21,7 +21,7 @@ out = cv2.VideoWriter('output.avi', fourCC, 20, (200, 200))
 # (fileName, fourCCvariable, framesPerSec, frameSize)
 
 
-cap = cv2.VideoCapture(0)  # you can use 0 or 1 to capture the video
+cap = cv2.VideoCapture(1)  # you can use 0 or 1 to capture the video
 
 
 time.sleep(3)
@@ -48,7 +48,7 @@ for i in range(60): # capturing the bkgrd 60 times, and overlapping to make one
 
    
 
-background = np.flip(background, axis=0)
+background = np.flip(background, axis=1)
 
 # flipping the background to avoid mirror image
 
