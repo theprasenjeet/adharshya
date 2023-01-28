@@ -6,6 +6,11 @@ def make_red_invisible(image_path):
 
     # Read in image
 
+    
+    if image_path is not None:
+
+        image_path = str(image_path)
+
     img = cv2.imread(image_path)
 
     # Convert to HSV color space
