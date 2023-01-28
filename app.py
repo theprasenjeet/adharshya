@@ -50,7 +50,7 @@ def main():
 
         # Read in the image
 
-        img = cv2.imread(image_path)
+        img = cv2.imread(str(image_path))
 
         
 
