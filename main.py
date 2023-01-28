@@ -42,7 +42,7 @@ for i in range(60): # capturing the bkgrd 60 times, and overlapping to make one
 
     returnV, background = cap.read()
 
-    # returnV is a boolean value which returns True if captured properly
+    # returnV is a boolean value which returns True if captured properlyhttps://www.instagram.com/reel/Cn7ZeLLhLbk/?igshid=YmMyMTA2M2Y=
 
     # background is the captured background in an array of pixels
 
