@@ -28,7 +28,7 @@ def make_red_invisible(image_path):
 
     return res
 
-st.set_title("Make Red Color Invisible App")
+st.title("Make Red Color Invisible App")
 
 image_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
